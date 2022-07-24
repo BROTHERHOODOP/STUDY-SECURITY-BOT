@@ -1,11 +1,11 @@
-from Rose import bot as app
+from Security import bot as app
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 
 text = """
 **Formatting**
 
-Rose supports a large number of formatting 
+Security supports a large number of formatting 
 options to make your messages more expressive. Take a look!
 """
 
