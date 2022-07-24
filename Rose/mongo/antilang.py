@@ -1,4 +1,4 @@
-from Rose.mongo import nexaub_antif
+from Security.mongo import nexaub_antif
 
 async def set_anti_func(chat_id, status, mode):
     anti_f = await nexaub_antif.find_one({"_id": chat_id})
