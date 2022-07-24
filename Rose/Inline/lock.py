@@ -1,4 +1,4 @@
-from Rose import bot as app
+from Study security import bot as app
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 
@@ -38,7 +38,7 @@ spam
 porn
 anonchannel
 
-Rose will delete user's message if locked content is sent
+Study security will delete user's message if locked content is sent
 """
 
 @app.on_callback_query(filters.regex("_ucd"))
