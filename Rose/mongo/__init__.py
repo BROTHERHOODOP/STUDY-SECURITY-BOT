@@ -1,8 +1,8 @@
 from sys import exit as exiter
 from pymongo import MongoClient
 from pymongo.errors import PyMongoError
-from Rose import DB_URI
-from Rose import *
+from Security import DB_URI
+from Security import *
 import pymongo
 
 langdb = db.language
