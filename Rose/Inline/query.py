@@ -1,8 +1,8 @@
 #==================== All in one =======================
 #=======================================================
 
-from Rose import app,date
-from Rose.plugins.wishper import lengths
+from security import app,date
+from security.plugins.wishper import lengths
 from config import LOG_GROUP_ID
 from pyrogram import filters
 from pyrogram.types import (
@@ -21,22 +21,22 @@ from captcha.image import ImageCaptcha
 from EmojiCaptcha import Captcha as emoji_captcha
 import uuid
 
-from Rose.mongo.feddb import (
+from Security.mongo.feddb import (
     get_fed_from_ownerid,
     get_fed_name,
     fed_promote,
 )
-from Rose.mongo.approvedb import Approve
-from Rose.mongo.disabledb import Disabling
-from Rose.mongo.filterdb import Filters
-from Rose.mongo.notesdb import Notes
-from Rose.mongo.blacklistdb import Blacklist
-from Rose.mongo.warnsdb import WarnSettings
-from Rose.mongo.rulesdb import Rules
-from Rose.mongo.warnsdb import Warns
-from Rose.mongo.captcha import captchas
-from Rose.mongo.welcomedb import Greetings
-from Rose.mongo.connectiondb import(
+from Security.mongo.approvedb import Approve
+from Security.mongo.disabledb import Disabling
+from Security.mongo.filterdb import Filters
+from Security.mongo.notesdb import Notes
+from Security.mongo.blacklistdb import Blacklist
+from Security.mongo.warnsdb import WarnSettings
+from Security.mongo.rulesdb import Rules
+from Security.mongo.warnsdb import Warns
+from Security.mongo.captcha import captchas
+from Security.mongo.welcomedb import Greetings
+from Security.mongo.connectiondb import(
     all_connections,
     if_active,
     make_active,
@@ -44,11 +44,11 @@ from Rose.mongo.connectiondb import(
     make_inactive
 )
 
-from Rose.utils.string import (
+from Security.utils.string import (
     build_keyboard,
     parse_button
 )
-from Rose.core.decorators.permissions import member_permissions
+from Security.core.decorators.permissions import member_permissions
 
 comman_text="{} is Cleared all {} in {} \n{}"
 comman_un_text = "<i>{} removed by {}</i>"
