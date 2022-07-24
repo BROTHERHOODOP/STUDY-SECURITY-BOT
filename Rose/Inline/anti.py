@@ -8,7 +8,7 @@ Delete messages containing characters from one of the following automatically
 - Chinese Language
 - Japanese Language (Includes Hiragana, Kanji and Katakana)
 - Sinhala Language
-- Tamil Language
+- Hindi Language
 - Cyrillic Language
 
 **Admin Commands:**
@@ -18,7 +18,7 @@ Delete messages containing characters from one of the following automatically
 - /antijapanese `[on | off]` -  anti-japanese function
 - /antirussian `[on | off]` -  anti-russian function
 - /antisinhala `[on | off]` -  anti-sinhala function
-- /antitamil `[on | off]` -  anti-tamil function
+- /antihindi `[on | off]` -  anti-hindi function
 
 **Note** : If admin send any containing characters in this lang when on  any function
            it will delete and user send 3 warn and after ban him    
