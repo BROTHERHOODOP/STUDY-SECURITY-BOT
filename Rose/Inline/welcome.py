@@ -1,4 +1,4 @@
-from Rose import bot as app
+from Security import bot as app
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 
@@ -40,7 +40,7 @@ async def commands_callbacc(_, CallbackQuery):
     )
 
 tetz = """
-Rose which will ask new Group Members to verify them by solving an emoji | number captcha.
+Security which will ask new Group Members to verify them by solving an emoji | number captcha.
 
 - /captcha - turn on captcha : There are two types of captcha
 - /remove - turn off captcha
